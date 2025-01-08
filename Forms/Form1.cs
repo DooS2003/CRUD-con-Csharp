@@ -93,6 +93,7 @@ namespace CRUD
             MessageBox.Show("Datos Eliminados" + text_codigo.Text);
             conexion.cerrar();
             button_listar_Click(null, null);
+            borrar_campos();
         }
     }
 }
